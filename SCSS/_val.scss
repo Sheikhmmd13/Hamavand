@@ -1,0 +1,22 @@
+// color
+$red: #A12704;
+$yellow: #FB9D32;
+$blue: #49BAC4;
+$dark-blue: #096770;
+$milky: #FFE9DD;
+$black: #1B1B14;
+$white: #F3F3F3;
+$gray: #808080;
+
+//fonts
+$font-family: "Lato", "san-serif";
+$font-light-weight: 300;
+$font-regular-weight: 400;
+$font-bold-weight: 700;
+
+// mixins
+@mixin  Flex($justify: center, $align: center) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}

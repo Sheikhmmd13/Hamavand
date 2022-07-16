@@ -1,0 +1,100 @@
+html {
+  font-size: 85%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/***** navbar *****/
+nav {
+  .container {
+    min-width: 80%;
+  }
+}
+/***** End navbar *****/
+
+/***** homepage *****/
+.home {
+  aside {
+    width: 35% !important;
+
+    h1 {
+      top: 4% !important;
+      font-size: 5.3rem !important;
+    }
+  }
+}
+/***** End homepage *****/
+
+
+/***** Departments *****/
+.departments {
+  padding-inline: 0% !important;
+  flex-direction: column;
+  height: 105vh !important;
+
+  aside {
+    width: 80% !important;
+    text-align: start;
+    gap: 1rem !important;
+
+    h2 {
+      font-size: 2rem !important;
+    }
+  }
+
+  .carts {
+    width: 70% !important;
+    height: 100vh;
+
+    .cart {
+      width: 45% !important;
+      height: 90% !important;
+      margin-block: auto;
+    }
+
+    .n-2 {
+      &:hover {
+        left: 55% !important;
+      }
+    }
+
+    .n-3 {
+      &:hover {
+        left: 60% !important;
+      }
+    }
+
+    .n-4 {
+      &:hover {
+        left: 65% !important;
+      }
+    }
+
+    .n-5 {
+      &:hover {
+        left: 70% !important;
+      }
+    }
+  }
+}
+/***** End Departments *****/
+
+/***** Team *****/ 
+section.team {
+  aside {
+    width: 50% !important;
+  }
+
+  .carts-container{
+    width: 100% !important;
+
+    .cart {
+      .detail {
+        transform: translateY(128px);
+      }
+    }
+  }
+}
+/***** End Team *****/
